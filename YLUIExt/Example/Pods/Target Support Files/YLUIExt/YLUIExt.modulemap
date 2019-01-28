@@ -1,6 +1,0 @@
-framework module YLUIExt {
-  umbrella header "YLUIExt-umbrella.h"
-
-  export *
-  module * { export * }
-}

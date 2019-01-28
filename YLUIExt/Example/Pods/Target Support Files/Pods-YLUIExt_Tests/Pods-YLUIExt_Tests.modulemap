@@ -1,6 +1,0 @@
-framework module Pods_YLUIExt_Tests {
-  umbrella header "Pods-YLUIExt_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
