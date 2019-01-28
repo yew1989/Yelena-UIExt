@@ -15,8 +15,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YLUIExt/Classes/**/*'
-  
+  s.source_files = 'YLUIExt/YLUIExt/Classes/**/*'
+
+  # s.source_files = 'YLUIExt/Classes/**/*'
+
   s.dependency 'YLCore'
   s.dependency 'YLHttp'
   s.dependency 'SDWebImage'
