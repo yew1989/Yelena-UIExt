@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YLUIExt_Example' do
+  pod 'YLUIExt', :path => '../'
+
+  target 'YLUIExt_Tests' do
+    inherit! :search_paths
+
+  end
+end

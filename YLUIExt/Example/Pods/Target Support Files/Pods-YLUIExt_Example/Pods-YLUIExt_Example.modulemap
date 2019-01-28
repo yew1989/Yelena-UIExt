@@ -1,0 +1,6 @@
+framework module Pods_YLUIExt_Example {
+  umbrella header "Pods-YLUIExt_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
