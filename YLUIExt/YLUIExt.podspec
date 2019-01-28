@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'Yelena UI Extent Library.'
 
   s.description      = <<-DESC
-	Yelena UI 增强库.
+	Yelena UI 增强库.动画.快速回调.圆角等.
                        DESC
 
   s.homepage         = 'https://github.com/yew1989/Yelena-UIExt'
