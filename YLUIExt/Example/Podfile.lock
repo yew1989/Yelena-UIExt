@@ -1,51 +1,28 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
   - SDWebImage (4.4.4):
     - SDWebImage/Core (= 4.4.4)
   - SDWebImage/Core (4.4.4)
   - YLCore (0.1.0)
-  - YLHttp (0.1.1):
-    - AFNetworking
-    - YLCore
-  - YLUIExt (0.1.0):
+  - YLUIExt (0.1.1):
     - SDWebImage
     - YLCore
-    - YLHttp
 
 DEPENDENCIES:
   - YLUIExt (from `../`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - AFNetworking
     - SDWebImage
     - YLCore
-    - YLHttp
 
 EXTERNAL SOURCES:
   YLUIExt:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   SDWebImage: c00ec18ab25d10e5ffac109b0f78d1b4341c9691
   YLCore: cd9fbd6c395f8a4db76988e511eea3404bf4ce40
-  YLHttp: 94dfa6e9a0150f6434fd75e937b242424e58db19
-  YLUIExt: ba095db77a4ec6cccbc9a7bbd5a02ba0f20b0ae3
+  YLUIExt: 82d11086f61ce2a00815a130bf5389d8a4939e07
 
 PODFILE CHECKSUM: 7ceb96fcb7fc8db0cf5dbbf4f7ea45d0facc43bf
 

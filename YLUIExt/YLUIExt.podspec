@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YLUIExt'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Yelena UI Extent Library.'
 
   s.description      = <<-DESC
@@ -15,12 +15,11 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YLUIExt/YLUIExt/Classes/**/*'
+  #  s.source_files = 'YLUIExt/YLUIExt/Classes/**/*'
 
-  # s.source_files = 'YLUIExt/Classes/**/*'
+  s.source_files = 'YLUIExt/Classes/**/*'
 
   s.dependency 'YLCore'
-  s.dependency 'YLHttp'
   s.dependency 'SDWebImage'
 
 end

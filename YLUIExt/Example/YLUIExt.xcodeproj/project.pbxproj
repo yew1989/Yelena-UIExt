@@ -62,7 +62,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73A7DF399658C9C8F6906F9F /* Pods-YLUIExt_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLUIExt_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLUIExt_Example/Pods-YLUIExt_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A281BB1E2A2BD0550C69385 /* YLUIExt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLUIExt.podspec; path = ../YLUIExt.podspec; sourceTree = "<group>"; };
+		8A281BB1E2A2BD0550C69385 /* YLUIExt.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLUIExt.podspec; path = ../YLUIExt.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C073972AA1AF8AAAD65D8CC9 /* Pods_YLUIExt_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLUIExt_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F8BCA19B26F36B30FCEE5E /* Pods_YLUIExt_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLUIExt_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4FA5224AF929F3D9512BAA5 /* Pods-YLUIExt_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLUIExt_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLUIExt_Example/Pods-YLUIExt_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -307,20 +307,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-YLUIExt_Example/Pods-YLUIExt_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/YLCore/YLCore.framework",
-				"${BUILT_PRODUCTS_DIR}/YLHttp/YLHttp.framework",
 				"${BUILT_PRODUCTS_DIR}/YLUIExt/YLUIExt.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLHttp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLUIExt.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
