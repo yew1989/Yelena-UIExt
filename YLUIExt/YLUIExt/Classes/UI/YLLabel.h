@@ -1,12 +1,12 @@
 #import <UIKit/UIKit.h>
 
-IB_DESIGNABLE
+
 
 @interface YLLabel : UILabel
 
-@property (nonatomic,assign) IBInspectable CGFloat cornerRadius;
-@property (nonatomic,assign) IBInspectable CGFloat borderWidth;
-@property (nonatomic,copy) IBInspectable UIColor *borderColor;
-@property (nonatomic,assign) IBInspectable BOOL isRound;
+@property (nonatomic,assign)  CGFloat cornerRadius;
+@property (nonatomic,assign)  CGFloat borderWidth;
+@property (nonatomic,copy)  UIColor *borderColor;
+@property (nonatomic,assign)  BOOL isRound;
 
 @end

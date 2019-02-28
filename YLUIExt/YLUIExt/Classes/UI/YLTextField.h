@@ -2,20 +2,20 @@
 #import <YLCore/YLMacro.h>
 #import <YLCore/YLCallBackDefine.h>
 
-IB_DESIGNABLE
+
 
 @interface YLTextField : UITextField
 
-@property (nonatomic,assign) IBInspectable CGFloat cornerRadius;
-@property (nonatomic,assign) IBInspectable CGFloat borderWidth;
-@property (nonatomic,copy) IBInspectable UIColor *borderColor;
-@property (nonatomic,assign) IBInspectable BOOL isRound;
+@property (nonatomic,assign)  CGFloat cornerRadius;
+@property (nonatomic,assign)  CGFloat borderWidth;
+@property (nonatomic,copy)  UIColor *borderColor;
+@property (nonatomic,assign)  BOOL isRound;
 
-@property (nonatomic,assign) IBInspectable NSUInteger placeFont;
-@property (nonatomic,copy) IBInspectable UIColor *placeColor;
+@property (nonatomic,assign)  NSUInteger placeFont;
+@property (nonatomic,copy)  UIColor *placeColor;
 
-@property (assign, nonatomic) IBInspectable NSUInteger max;
-@property (assign, nonatomic) IBInspectable BOOL resignReturn;
+@property (assign, nonatomic)  NSUInteger max;
+@property (assign, nonatomic)  BOOL resignReturn;
 
 
 @property (nonatomic, copy) BOOL(^shouldBeginEditingBlock)(YLTextField *);

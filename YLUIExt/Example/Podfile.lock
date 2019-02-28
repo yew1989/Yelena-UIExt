@@ -1,0 +1,29 @@
+PODS:
+  - SDWebImage (4.4.4):
+    - SDWebImage/Core (= 4.4.4)
+  - SDWebImage/Core (4.4.4)
+  - YLCore (0.1.0)
+  - YLUIExt (0.1.2):
+    - SDWebImage
+    - YLCore
+
+DEPENDENCIES:
+  - YLUIExt (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SDWebImage
+    - YLCore
+
+EXTERNAL SOURCES:
+  YLUIExt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDWebImage: c00ec18ab25d10e5ffac109b0f78d1b4341c9691
+  YLCore: cd9fbd6c395f8a4db76988e511eea3404bf4ce40
+  YLUIExt: b7de268c9a61c4623a2dc090bad096102d416ead
+
+PODFILE CHECKSUM: 7ceb96fcb7fc8db0cf5dbbf4f7ea45d0facc43bf
+
+COCOAPODS: 1.5.0
